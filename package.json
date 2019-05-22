@@ -1,0 +1,31 @@
+{
+  "name": "less-variable-resolver",
+  "version": "0.1.0",
+  "description": "Resolve variables defined by other variables' values - to allow for conversion into languages not supporting lazy evaluation",
+  "keywords": [
+    "less"
+  ],
+  "author": "WMDE",
+  "license": "GPL-2.0+",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wmde/less-variable-resolver"
+  },
+  "main": "src/index.js",
+  "dependencies": {
+    "npmlog": "^4.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-wikimedia": "^0.12.0",
+    "gonzales-pe": "^4.2.4",
+    "jest": "^24.8.0"
+  },
+  "peerDependencies": {
+    "gonzales-pe": "^4.2.4"
+  },
+  "scripts": {
+    "fix": "eslint --fix .",
+    "test": "eslint . && jest"
+  }
+}
