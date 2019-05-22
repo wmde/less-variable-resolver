@@ -3,3 +3,10 @@ node_js:
   - "6"
   - "12"
   - "node"
+deploy:
+  provider: npm
+  email: engineering-managers@wikimedia.de
+  api_key:
+    secure: aSFP0zvihs0mlHxZNfnFoUlg1CRjDLPeV6x2VAkuwBxdfyusxN5rG8dzcE0rq99ZJ1R4O00vK6PLbi8k16jge4GdAKGrO+sJrsL9Om54uxrNILgpciVTToMXKb4LXZQ9zQeGY3tsxRCmkgUvUUwMYbeg5GQ9AUYAOHTJiVxaR+hGoTHnLUwYR1ZyTM5BRXjScvbbF4v7vJvjqXZq0SDhK+hxbZvdBWty+4HL2Ig1oQwK7foE4b9kiw0cZZT6Hl08F2BZD6as25MuszpXBrj2nejicJ0IniAqUHeiFVVlOLTe2JI+WZL5UuVj4sx95tPtPEu9N4Mt/9DfQh3KoVQo6hJimdIW1VVCRmy088saZqH5AHfLscXWzvsGC0mH7UocPcp3efybzZvMu7ktWnmncmQ2lP80k0E+kA/KmV3QO6YpgjPJlq34oPtt/EbbXn0XvrldNELdA/ealJ/yiyCd9igcPuteXjHnU+VKic0DglpDinlrkBZjJxt37KiTRqb5khgB0pmtQuS6j/RPxj6PbwtcOX5J41UWcNw9NlgYmHHbk9C3CUV/Y/eEyE2MOrsUERyFtM4oOYDSg44jhgRnXVIbZ8jpGO1Q8oFIDHjuzmAKq5ist5tGlb+etJgPPZK3R/SGCNBZimNI/6f4x9byyLYngAv7UxrwdrmsD5LTmZU=
+  on:
+    tags: true
