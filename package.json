@@ -1,6 +1,6 @@
 {
   "name": "less-variable-resolver",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Resolve variables defined by other variables' values - to allow for conversion into languages not supporting lazy evaluation",
   "keywords": [
     "less"
