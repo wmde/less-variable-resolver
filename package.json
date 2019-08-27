@@ -19,7 +19,7 @@
     "eslint": "^5.16.0",
     "eslint-config-wikimedia": "^0.12.0",
     "gonzales-pe": "^4.2.4",
-    "jest": "^24.8.0"
+    "jest": "^24.9.0"
   },
   "peerDependencies": {
     "gonzales-pe": "^4.2.4"
